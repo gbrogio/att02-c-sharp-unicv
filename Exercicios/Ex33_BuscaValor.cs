@@ -1,17 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace att02.Exercicios;
 
-namespace ConsoleApp2
+public static class Ex33_BuscaValor
 {
-    internal class Program
+    public static void Executar()
     {
-        static void Main(string[] args)
-        {
-            List<int> lista = new List<int> {5, 1, 3, 2, 4};
+	    List<int> lista = new List<int> {5, 1, 3, 2, 4};
             List<int> lista2 = new List<int> { };
 
             lista2.Add(10);
@@ -28,8 +21,7 @@ namespace ConsoleApp2
             else
             {
                 Console.WriteLine("O número 3 não esta na lista.");
-            }
+            }     
 
-        }
     }
 }
