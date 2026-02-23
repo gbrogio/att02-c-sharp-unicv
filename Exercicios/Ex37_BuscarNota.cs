@@ -1,6 +1,6 @@
 namespace att02.Exercicios;
 
-public static class Ex38_BuscarNota
+public static class Ex37_BuscarNota
 {
     public static void Executar()
     {
