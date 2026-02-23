@@ -1,6 +1,46 @@
 using att02.Exercicios;
 
-Console.WriteLine("========== Atividade 11 - Converta número (1-7) para dia da semana ==========");
+Console.WriteLine("========== Atividade 01 - Positivo Negativo e Zero ==========");
+Ex01_PositivoNegativoZero.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 02 - Verifica se maior ou menor de idade ==========");
+Ex02_MaiorMenorIdade.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 03 - Verifica se o numero e Par ou Impar ==========");
+Ex03_ParImpar.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 04 - Verifica qual dos 3 numeros e maior ==========");
+Ex04_MaiorTresNumeros.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 05 - Verifica a media finaldo aluno  ==========");
+Ex05_MediaAprovacao.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 06 - Verifica se o ano e Bissexto  ==========");
+Ex06_AnoBissexto.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 07 - Verifica se o numero esta dentro do intervalo de 10 a 50  ==========");
+Ex07_IntervalodosNumeros.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 08 - Verifica e faz o calculo IMC  ==========");
+Ex08_CalculoIMC.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 09 - Validação de senha  ==========");
+Ex09_ValidacaoSenha.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 10 - Menu  ==========");
+Ex10_MenuSwitch.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 11 - Dia / Semana  ==========");
 Ex11_DiaSemana.Executar();
 Console.WriteLine();
 
