@@ -1,17 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace att02.Exercicios;
 
-namespace ConsoleApp2
+public static class Ex36_DictionaryAlunos
 {
-    internal class Program
+    public static void Executar()
     {
-        static void Main(string[] args)
-        {
-
           Console.WriteLine("------------36-----------");
           
           Dictionary<string, int> alunoNotas = new Dictionary<String, int>();
@@ -24,8 +16,7 @@ namespace ConsoleApp2
           foreach (var item36 in alunoNotas)
           {
               Console.WriteLine(item36);
-          }      
+          }   
 
-        }
     }
 }
