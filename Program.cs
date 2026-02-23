@@ -43,3 +43,39 @@ Ex20_Tabuada.Executar();
 Console.WriteLine("========== Atividade 51 - Converta string para maiúscula ==========");
 Ex51_StringMaiuscula.Executar();
 Console.WriteLine();
+
+Console.WriteLine("========== Atividade 52 - Converta string para minúscula ==========");
+Ex52_StringMinuscula.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 53 - Inverta uma string ==========");
+Ex53_InverterString.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 54 - Conte vogais em uma string ==========");
+Ex54_ContarVogais.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 55 - Verifique se string é palíndromo ==========");
+Ex55_Palindromo.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 56 - Substitua caracteres em uma string ==========");
+Ex56_SubstituirCaracteres.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 57 - Formate data para dd/MM/yyyy ==========");
+Ex57_FormatarData.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 58 - Calcule diferença entre duas datas ==========");
+Ex58_DiferencaDatas.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 59 - Adicione 30 dias a data atual ==========");
+Ex59_AdicionarDias.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 60 - Calcule dias para o fim do ano ==========");
+Ex60_DiasParaFimDoAno.Executar();
+Console.WriteLine();
