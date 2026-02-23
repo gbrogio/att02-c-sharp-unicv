@@ -4,7 +4,7 @@ public static class Ex36_DictionaryAlunos
 {
     public static void Executar()
     {
-          Console.WriteLine("------------36-----------");
+          Console.WriteLine("------------36------------");
           
           Dictionary<string, int> alunoNotas = new Dictionary<String, int>();
           
