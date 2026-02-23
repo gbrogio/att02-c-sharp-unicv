@@ -38,3 +38,8 @@ Console.WriteLine();
 
 Console.WriteLine("========== Atividade 20 - Gere tabuada de um número ==========");
 Ex20_Tabuada.Executar();
+
+
+Console.WriteLine("========== Atividade 51 - Converta string para maiúscula ==========");
+Ex51_StringMaiuscula.Executar();
+Console.WriteLine();
