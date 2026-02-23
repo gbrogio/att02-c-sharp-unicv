@@ -1,17 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace att02.Exercicios;
 
-namespace ConsoleApp2
+public static class Ex39_VerificarQuantidade
 {
-    internal class Program
+    public static void Executar()
     {
-        static void Main(string[] args)
-        {
-
           Dictionary<string, int> alunoNotas = new Dictionary<String, int>();
           
           alunoNotas.Add("João", 8);
@@ -22,6 +14,6 @@ namespace ConsoleApp2
           Console.WriteLine("------------39-----------");
 
           Console.WriteLine(alunoNotas.Count());
-        }
+
     }
 }
