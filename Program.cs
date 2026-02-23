@@ -80,6 +80,37 @@ Console.WriteLine("========== Atividade 20 - Gere tabuada de um número ========
 Ex20_Tabuada.Executar();
 
 
+Console.WriteLine("========== Atividade 31 - Crie lista de inteiros e adicione 5 valores. ==========");
+Ex31_ListaAdicione.Executar();
+
+Console.WriteLine("========== Atividade 32 - Remove um elemento da Lista ==========");
+Ex32_RemoveElemento.Executar();
+
+Console.WriteLine("========== Atividade 33 - Busca um elemento da Lista ==========");
+Ex33_BuscaValor.Executar();
+
+Console.WriteLine("========== Atividade 34 - Organiza em ordem crescente a Lista ==========");
+Ex34_OrdemCrescente.Executar();
+
+Console.WriteLine("========== Atividade 35 - Organiza em ordem decrescente a Lista ==========");
+Ex35_OrdemDecrescente.Executar();
+
+Console.WriteLine("========== Atividade 36 - Criar um Dictionary de alunos com notas ==========");
+Ex36_DictionaryAlunos.Executar();
+
+Console.WriteLine("========== Atividade 37 - Busca a nota do aluno pelo nome ==========");
+Ex37_BuscarNota.Executar();
+
+Console.WriteLine("========== Atividade 38 - Percorrer o Dictionary buscando chave e valor ==========");
+Ex38_BuscarChaveValor.Executar();
+
+Console.WriteLine("========== Atividade 39 - Verifica quantidade de elemento no Dictionary ==========");
+Ex39_VerificarQuantidade.Executar();
+
+Console.WriteLine("========== Atividade 40 - Criar Lista de Objetos ==========");
+Ex40_ListaDeObjetosEValor.Executar();
+
+
 Console.WriteLine("========== Atividade 51 - Converta string para maiúscula ==========");
 Ex51_StringMaiuscula.Executar();
 Console.WriteLine();
