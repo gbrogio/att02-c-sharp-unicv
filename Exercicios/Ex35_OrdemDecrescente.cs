@@ -1,16 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace att02.Exercicios;
 
-namespace ConsoleApp2
+public static class Ex35_OrdemDecrescente
 {
-    internal class Program
+    public static void Executar()
     {
-        static void Main(string[] args)
-        {
             List<int> lista = new List<int> {5, 1, 3, 2, 4};
             List<int> lista2 = new List<int> { };
 
@@ -29,6 +22,5 @@ namespace ConsoleApp2
                 Console.WriteLine(item35);
             }
 
-        }
     }
 }
