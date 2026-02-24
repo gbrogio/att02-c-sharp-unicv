@@ -4,7 +4,7 @@ public static class Ex56_FormatarData
 {
     public static void Executar()
     {
-        DateTime agora = DateTime.Now;
-        Console.WriteLine($"Data atual: {agora:dd/MM/yyyy}");
+        DateTime hoje = DateTime.Now;
+        Console.WriteLine($"Data atual formatada: {hoje:dd/MM/yyyy}");
     }
 }

@@ -1,10 +1,17 @@
-public static class Ex57_DiferencaDatas
+namespace att02.Exercicios;
+
+public static class Ex57_CalculoDatas
 {
-	public static void Executar()
-	{
-		DateTime data1 = new DateTime(2024, 01, 01);
-		DateTime data2 = DateTime.Now;
-		TimeSpan diferenca = data2 - data1;
-		Console.WriteLine($"Diferença em dias: {diferenca.Days} dias.");
-	}
+    public static void Executar()
+    {
+        Console.Write("Digite a primeira data (dd/MM/yyyy): ");
+        DateTime data1 = DateTime.Parse(Console.ReadLine() ?? "");
+
+        Console.Write("Digite a segunda data (dd/MM/yyyy): ");
+        DateTime data2 = DateTime.Parse(Console.ReadLine() ?? "");
+
+        TimeSpan diferenca = data2 - data1;
+
+        Console.WriteLine($"Diferença em dias: {Math.Abs(diferenca.Days)}");
+    }
 }

@@ -6,15 +6,10 @@ public static class Ex55_ExtrairCaracteres
     {
         Console.Write("Digite um texto: ");
         string texto = Console.ReadLine() ?? "";
-        Console.Write("Número de caracteres a extrair: ");
-        if (int.TryParse(Console.ReadLine(), out int quantidade) && quantidade > 0)
-        {
-            string resultado = texto.Length >= quantidade ? texto.Substring(0, quantidade) : texto;
-            Console.WriteLine($"Texto extraído: {resultado}");
-        }
+
+        if (texto.Length >= 3)
+            Console.WriteLine($"Primeiros 3 caracteres: {texto.Substring(0, 3)}");
         else
-        {
-            Console.WriteLine("Entrada inválida. Por favor, insira um número inteiro positivo.");
-        }
-	}
+            Console.WriteLine("Texto tem menos de 3 caracteres.");
+    }
 }

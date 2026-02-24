@@ -1,14 +1,17 @@
 namespace att02.Exercicios;
 
-public static class Ex53_ContemPalavra
+public static class Ex53_VerificarString
 {
     public static void Executar()
     {
-        Console.Write("Digite o texto: ");
-        string texto = Console.ReadLine() ?? "";
-        Console.Write("Palavra a buscar: ");
-        string busca = Console.ReadLine() ?? "";
-        bool contem = texto.Contains(busca, StringComparison.OrdinalIgnoreCase);
-        Console.WriteLine(contem ? "A palavra foi encontrada." : "Palavra não encontrada.");
+        Console.Write("Digite uma frase: ");
+        string frase = Console.ReadLine() ?? "";
+
+        Console.Write("Digite a palavra para procurar: ");
+        string palavra = Console.ReadLine() ?? "";
+
+        bool contem = frase.Contains(palavra, StringComparison.OrdinalIgnoreCase);
+
+        Console.WriteLine(contem ? "A frase contém a palavra." : "A frase NÃO contém a palavra.");
     }
 }
