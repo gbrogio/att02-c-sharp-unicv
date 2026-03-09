@@ -1,35 +1,43 @@
-﻿static bool senhacheck(string senha)
-{
-    bool minusc = false;
-    bool maiusc = false;
-    bool numb = false;
+namespace att02.Exercicios;
 
-    foreach (char c in senha)
+public static class Ex50_FuncaoValidaSenha
+{
+    private static bool SenhaValida(string senha)
     {
-        if (char.IsLower(c))
+        bool minuscula = false;
+        bool maiuscula = false;
+        bool numero = false;
+
+        foreach (char c in senha)
         {
-            minusc = true;
+            if (char.IsLower(c))
+            {
+                minuscula = true;
+            }
+            else if (char.IsUpper(c))
+            {
+                maiuscula = true;
+            }
+            else if (char.IsDigit(c))
+            {
+                numero = true;
+            }
         }
-        else if (char.IsUpper(c))
-        {
-            maiusc = true;
-        }
-        else if (char.IsDigit(c))
-        {
-            numb = true;
-        }
-        
+
+        return maiuscula && minuscula && numero;
     }
-    return maiusc && minusc && numb;
-}
 
-string senha = "Cristo Jesus é fiel amigo777";
+    public static void Executar()
+    {
+        string senha = "Cristo Jesus é fiel amigo777";
 
-if (senhacheck(senha))
-{
-    Console.WriteLine("Senha válida!");
-}
-else
-{
-    Console.WriteLine("Sena inválida!");
+        if (SenhaValida(senha))
+        {
+            Console.WriteLine("Senha válida!");
+        }
+        else
+        {
+            Console.WriteLine("Senha inválida!");
+        }
+    }
 }

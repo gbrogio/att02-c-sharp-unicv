@@ -1,16 +1,21 @@
-﻿using System.Data;
+namespace att02.Exercicios;
 
-static int idade(DateTime nascimento)
+public static class Ex47_FuncaoIdade
 {
-    int idade = DateTime.Now.Year - nascimento.Year;
+    private static int CalcularIdade(DateTime nascimento)
+    {
+        int idade = DateTime.Now.Year - nascimento.Year;
 
-    if (DateTime.Now < nascimento.AddYears(idade))
-        idade--;
+        if (DateTime.Now < nascimento.AddYears(idade))
+            idade--;
 
-    return idade;
+        return idade;
+    }
+
+    public static void Executar()
+    {
+        DateTime nascimento = new DateTime(2002, 8, 25);
+        int idade = CalcularIdade(nascimento);
+        Console.WriteLine($"Idade: {idade} anos");
+    }
 }
-
-DateTime nascimento = new DateTime(2002, 8, 25);
-int iidade = idade(nascimento);
-Console.WriteLine($"Idade: {iidade} anos");
-

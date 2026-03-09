@@ -1,29 +1,37 @@
-﻿static List<int> filtrapares(List<int> numeros)
-{
-    List<int> pares = new List<int>();
+namespace att02.Exercicios;
 
-    foreach (int n in numeros)
+public static class Ex49_FuncaoListaPares
+{
+    private static List<int> FiltraPares(List<int> numeros)
     {
-        if (n % 2 == 0)
+        List<int> pares = new List<int>();
+
+        foreach (int n in numeros)
         {
-            pares.Add(n);
+            if (n % 2 == 0)
+            {
+                pares.Add(n);
+            }
         }
+
+        return pares;
     }
 
-    return pares;
-}
+    public static void Executar()
+    {
+        List<int> numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        List<int> pares = FiltraPares(numeros);
 
-List<int> numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-List<int> pares = filtrapares(numeros);
+        Console.WriteLine("Lista completa:");
+        foreach (int n in numeros)
+        {
+            Console.WriteLine(n);
+        }
 
-Console.WriteLine($"Lista completa: {numeros}");
-foreach (int n in numeros)
-{
-    Console.WriteLine(n);
-}
-
-Console.WriteLine("\nNúmeros pares da lista: ");
-foreach (int p in pares)
-{
-    Console.WriteLine(p);
+        Console.WriteLine("\nNúmeros pares da lista:");
+        foreach (int p in pares)
+        {
+            Console.WriteLine(p);
+        }
+    }
 }

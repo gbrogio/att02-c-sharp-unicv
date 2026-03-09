@@ -109,6 +109,43 @@ Ex39_VerificarQuantidade.Executar();
 
 Console.WriteLine("========== Atividade 40 - Criar Lista de Objetos ==========");
 Ex40_ListaDeObjetosEValor.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 41 - Função soma ==========");
+Ex41_FuncaoSoma.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 42 - Função maior ==========");
+Ex42_FuncaoMaior.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 43 - Função média de três números ==========");
+Ex43_FuncaoMedia.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 45 - Função soma lista ==========");
+Ex45_FuncaoSomaLista.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 46 - Função inverte texto ==========");
+Ex46_FuncaoInverte.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 47 - Função idade ==========");
+Ex47_FuncaoIdade.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 48 - Função ref (dobrar valor) ==========");
+Ex48_FuncaoRef.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 49 - Função lista pares ==========");
+Ex49_FuncaoListaPares.Executar();
+Console.WriteLine();
+
+Console.WriteLine("========== Atividade 50 - Função valida senha ==========");
+Ex50_FuncaoValidaSenha.Executar();
+Console.WriteLine();
 
 Console.WriteLine("========== Atividade 51 - Converta string para maiúscula ==========");
 Ex51_StringMaiuscula.Executar();

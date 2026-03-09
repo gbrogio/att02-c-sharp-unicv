@@ -1,11 +1,20 @@
-﻿static string strangerthings(string texto)
-{
-    char[] letras = texto.ToCharArray();
-    Array.Reverse(letras);
-    return new string(letras);
-}
+namespace att02.Exercicios;
 
-string texto = "Subi no onibus";
-string inverso = strangerthings(texto);
-Console.WriteLine($"Frase original: {texto}");
-Console.WriteLine(inverso);
+public static class Ex46_FuncaoInverte
+{
+    private static string InverterTexto(string texto)
+    {
+        char[] letras = texto.ToCharArray();
+        Array.Reverse(letras);
+        return new string(letras);
+    }
+
+    public static void Executar()
+    {
+        string texto = "Subi no onibus";
+        string inverso = InverterTexto(texto);
+
+        Console.WriteLine($"Frase original: {texto}");
+        Console.WriteLine($"Frase invertida: {inverso}");
+    }
+}
